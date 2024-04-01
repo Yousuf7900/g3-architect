@@ -1,0 +1,25 @@
+/* Work sans font from google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Header styles */
+header {
+  background-color: rgba(255, 144, 14, 0.1);
+  padding: 50px 240px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav > ul {
+  display: flex;
+}
+nav li {
+  list-style: none;
+  margin-right: 30px;
+  color: #424242;
+  font-size: 18px;
+  font-weight: 500;
+}
