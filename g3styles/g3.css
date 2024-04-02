@@ -18,6 +18,10 @@
     font-weight: 700;
     color: #131313;
 }
+main{
+    max-width: 1440px;
+    margin: 70px auto;
+}
 
 /* Header style */
 header{
@@ -60,11 +64,6 @@ nav li a{
     margin-top: 20px;
     width: 100%;
 }
-/* Main section */
-main{
-    max-width: 1440px;
-    margin: 70px auto;
-}
 /* teams style */
 .teams-container{
     display: flex;
@@ -86,7 +85,7 @@ main{
     color: #727272;
     font-weight: 500;
 }
-.teams-title .features{
+.teams-title .features-text{
     color: #FF900E;
     font-weight: 700;
 }
